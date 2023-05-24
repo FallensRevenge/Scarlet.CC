@@ -1,0 +1,1427 @@
+local ScarletCC = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local PageFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local HomeButton = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local MobileLockButton = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local PCLockButton = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local ControllerLockButton = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local FunStuffButton = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextButton = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextButton_2 = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local HomeFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Username = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local PlayerID = Instance.new("TextLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_14 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_16 = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local UIGradient_17 = Instance.new("UIGradient")
+local MobileLockFrame = Instance.new("Frame")
+local Mobile_CamLock = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Mobile_SilentAim = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local PCLockFrame = Instance.new("Frame")
+local PC_CamLock = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local PC_SilentAim = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local PC_DotLock = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local FunStuffFrame = Instance.new("Frame")
+local FlightS = Instance.new("TextButton")
+local SpeeD = Instance.new("TextButton")
+local ResE = Instance.new("TextButton")
+local LoginFrame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextButton_4 = Instance.new("TextButton")
+local UIGradient_18 = Instance.new("UIGradient")
+local UIGradient_19 = Instance.new("UIGradient")
+local TextLabel_12 = Instance.new("TextLabel")
+local UIGradient_20 = Instance.new("UIGradient")
+
+--Properties:
+
+ScarletCC.Name = "Scarlet.CC"
+ScarletCC.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScarletCC.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScarletCC
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MainFrame.Position = UDim2.new(0.499637425, 0, 0.548543692, 0)
+MainFrame.Size = UDim2.new(0, 863, 0, 435)
+MainFrame.Visible = false
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.258400917, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 640, 0, 40)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Scarlet.CC"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient.Rotation = 90
+UIGradient.Parent = TextLabel
+
+PageFrame.Name = "PageFrame"
+PageFrame.Parent = MainFrame
+PageFrame.Active = true
+PageFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageFrame.BackgroundTransparency = 1.000
+PageFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PageFrame.Position = UDim2.new(0, 0, 0.0988505781, 0)
+PageFrame.Size = UDim2.new(0, 219, 0, 392)
+PageFrame.BottomImage = ""
+PageFrame.MidImage = ""
+PageFrame.ScrollBarThickness = 1
+PageFrame.TopImage = ""
+
+UIListLayout.Parent = PageFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0.00499999989, 10)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = PageFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HomeButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+HomeButton.Size = UDim2.new(0, 196, 0, 50)
+HomeButton.Font = Enum.Font.Sarpanch
+HomeButton.Text = "HOME"
+HomeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.TextSize = 22.000
+HomeButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+HomeButton.TextStrokeTransparency = 0.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = HomeButton
+
+MobileLockButton.Name = "MobileLockButton"
+MobileLockButton.Parent = PageFrame
+MobileLockButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MobileLockButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+MobileLockButton.Size = UDim2.new(0, 196, 0, 50)
+MobileLockButton.Font = Enum.Font.Sarpanch
+MobileLockButton.Text = "MOBILE LOCKS"
+MobileLockButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MobileLockButton.TextSize = 22.000
+MobileLockButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+MobileLockButton.TextStrokeTransparency = 0.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = MobileLockButton
+
+PCLockButton.Name = "PCLockButton"
+PCLockButton.Parent = PageFrame
+PCLockButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PCLockButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+PCLockButton.Size = UDim2.new(0, 196, 0, 50)
+PCLockButton.Font = Enum.Font.Sarpanch
+PCLockButton.Text = "PC LOCKS"
+PCLockButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PCLockButton.TextSize = 22.000
+PCLockButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+PCLockButton.TextStrokeTransparency = 0.000
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_4.Rotation = 90
+UIGradient_4.Parent = PCLockButton
+
+ControllerLockButton.Name = "ControllerLockButton"
+ControllerLockButton.Parent = PageFrame
+ControllerLockButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ControllerLockButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+ControllerLockButton.Size = UDim2.new(0, 196, 0, 50)
+ControllerLockButton.Font = Enum.Font.Sarpanch
+ControllerLockButton.Text = "CONTROLLER LOCKS"
+ControllerLockButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ControllerLockButton.TextSize = 22.000
+ControllerLockButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+ControllerLockButton.TextStrokeTransparency = 0.000
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_5.Rotation = 90
+UIGradient_5.Parent = ControllerLockButton
+
+FunStuffButton.Name = "FunStuffButton"
+FunStuffButton.Parent = PageFrame
+FunStuffButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FunStuffButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+FunStuffButton.Size = UDim2.new(0, 196, 0, 50)
+FunStuffButton.Font = Enum.Font.Sarpanch
+FunStuffButton.Text = "FUN STUFF"
+FunStuffButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunStuffButton.TextSize = 22.000
+FunStuffButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+FunStuffButton.TextStrokeTransparency = 0.000
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_6.Rotation = 90
+UIGradient_6.Parent = FunStuffButton
+
+TextButton.Parent = PageFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextButton.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+TextButton.Size = UDim2.new(0, 196, 0, 50)
+TextButton.Font = Enum.Font.Sarpanch
+TextButton.Text = "COMBAT"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 22.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.TextStrokeTransparency = 0.000
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_7.Rotation = 90
+UIGradient_7.Parent = TextButton
+
+TextButton_2.Parent = PageFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextButton_2.Position = UDim2.new(0.0821917802, 0, 0.00714285718, 0)
+TextButton_2.Size = UDim2.new(0, 196, 0, 50)
+TextButton_2.Font = Enum.Font.Sarpanch
+TextButton_2.Text = "COMING SOON..."
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 22.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_2.TextStrokeTransparency = 0.000
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_8.Rotation = 90
+UIGradient_8.Parent = TextButton_2
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Parent = PageFrame
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00115874852, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 221, 0, 40)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "PAGES"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 30.000
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_10.Rotation = 90
+UIGradient_10.Parent = TextLabel_2
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = MainFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+HomeFrame.LayoutOrder = 2
+HomeFrame.Position = UDim2.new(0.261877149, 0, 0.105747104, 0)
+HomeFrame.Size = UDim2.new(0, 633, 0, 383)
+
+ImageLabel.Parent = HomeFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.0126382411, 0, 0.0130548291, 0)
+ImageLabel.Size = UDim2.new(0, 208, 0, 208)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+Username.Name = "Username"
+Username.Parent = HomeFrame
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.355450243, 0, 0.01305483, 0)
+Username.Size = UDim2.new(0, 200, 0, 50)
+Username.Font = Enum.Font.Michroma
+Username.Text = "Username:"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 20.000
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_11.Rotation = 90
+UIGradient_11.Parent = Username
+
+PlayerID.Name = "PlayerID"
+PlayerID.Parent = HomeFrame
+PlayerID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerID.BackgroundTransparency = 1.000
+PlayerID.Position = UDim2.new(0.355450243, 0, 0.143603131, 0)
+PlayerID.Size = UDim2.new(0, 200, 0, 50)
+PlayerID.Font = Enum.Font.Michroma
+PlayerID.Text = "User ID:"
+PlayerID.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerID.TextSize = 20.000
+PlayerID.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_12.Rotation = 90
+UIGradient_12.Parent = PlayerID
+
+TextLabel_3.Parent = HomeFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.355450243, 0, 0.289817214, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Michroma
+TextLabel_3.Text = "Premiun Status:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_13.Rotation = 90
+UIGradient_13.Parent = TextLabel_3
+
+TextLabel_4.Parent = HomeFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.355450243, 0, 0.420365512, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.Michroma
+TextLabel_4.Text = "Patch Status:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_14.Rotation = 90
+UIGradient_14.Parent = TextLabel_4
+
+TextLabel_5.Parent = HomeFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0126382411, 0, 0.592689276, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.Michroma
+TextLabel_5.Text = "Executor Status:"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_15.Rotation = 90
+UIGradient_15.Parent = TextLabel_5
+
+TextLabel_6.Parent = HomeFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0126382411, 0, 0.723237574, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.Michroma
+TextLabel_6.Text = "Height:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_16.Rotation = 90
+UIGradient_16.Parent = TextLabel_6
+
+TextButton_3.Parent = HomeFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+TextButton_3.Position = UDim2.new(0.0189573467, 0, 0.853785872, 0)
+TextButton_3.Size = UDim2.new(0, 206, 0, 50)
+TextButton_3.Font = Enum.Font.Michroma
+TextButton_3.Text = "BUY PREMIUM"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+TextButton_3.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_3.TextStrokeTransparency = 0.000
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_17.Rotation = 90
+UIGradient_17.Parent = TextButton_3
+
+MobileLockFrame.Name = "MobileLockFrame"
+MobileLockFrame.Parent = MainFrame
+MobileLockFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+MobileLockFrame.LayoutOrder = 2
+MobileLockFrame.Position = UDim2.new(0.261877179, 0, 0.105747111, 0)
+MobileLockFrame.Size = UDim2.new(0, 633, 0, 383)
+MobileLockFrame.Visible = false
+
+Mobile_CamLock.Name = "Mobile_CamLock"
+Mobile_CamLock.Parent = MobileLockFrame
+Mobile_CamLock.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Mobile_CamLock.Position = UDim2.new(0.587677717, 0, 0.0234986953, 0)
+Mobile_CamLock.Size = UDim2.new(0, 200, 0, 38)
+Mobile_CamLock.Font = Enum.Font.Michroma
+Mobile_CamLock.Text = "ACTIVATE"
+Mobile_CamLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mobile_CamLock.TextSize = 20.000
+Mobile_CamLock.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Mobile_CamLock.TextStrokeTransparency = 0.000
+
+TextLabel_7.Parent = Mobile_CamLock
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-1.78630328, 0, -0.118524119, 0)
+TextLabel_7.Size = UDim2.new(0, 357, 0, 50)
+TextLabel_7.Font = Enum.Font.Michroma
+TextLabel_7.Text = " CAM LOCK"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Mobile_SilentAim.Name = "Mobile_SilentAim"
+Mobile_SilentAim.Parent = MobileLockFrame
+Mobile_SilentAim.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Mobile_SilentAim.Position = UDim2.new(0.586097956, 0, 0.190600529, 0)
+Mobile_SilentAim.Size = UDim2.new(0, 200, 0, 38)
+Mobile_SilentAim.Font = Enum.Font.Michroma
+Mobile_SilentAim.Text = "ACTIVATE"
+Mobile_SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mobile_SilentAim.TextSize = 20.000
+Mobile_SilentAim.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Mobile_SilentAim.TextStrokeTransparency = 0.000
+
+TextLabel_8.Parent = Mobile_SilentAim
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-1.78630328, 0, -0.118524119, 0)
+TextLabel_8.Size = UDim2.new(0, 357, 0, 50)
+TextLabel_8.Font = Enum.Font.Michroma
+TextLabel_8.Text = " SILENT AIM"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+PCLockFrame.Name = "PCLockFrame"
+PCLockFrame.Parent = MainFrame
+PCLockFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+PCLockFrame.LayoutOrder = 1
+PCLockFrame.Position = UDim2.new(0.266512185, 0, 0.105747133, 0)
+PCLockFrame.Size = UDim2.new(0, 633, 0, 383)
+PCLockFrame.Visible = false
+
+PC_CamLock.Name = "PC_CamLock"
+PC_CamLock.Parent = PCLockFrame
+PC_CamLock.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+PC_CamLock.Position = UDim2.new(0.587677717, 0, 0.0234986953, 0)
+PC_CamLock.Size = UDim2.new(0, 200, 0, 38)
+PC_CamLock.Font = Enum.Font.Michroma
+PC_CamLock.Text = "TOGGLE [Q]"
+PC_CamLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+PC_CamLock.TextSize = 20.000
+PC_CamLock.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+PC_CamLock.TextStrokeTransparency = 0.000
+
+TextLabel_9.Parent = PC_CamLock
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-1.78630328, 0, -0.118524119, 0)
+TextLabel_9.Size = UDim2.new(0, 357, 0, 50)
+TextLabel_9.Font = Enum.Font.Michroma
+TextLabel_9.Text = " CAM LOCK"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_9.TextStrokeTransparency = 0.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+PC_SilentAim.Name = "PC_SilentAim"
+PC_SilentAim.Parent = PCLockFrame
+PC_SilentAim.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+PC_SilentAim.Position = UDim2.new(0.586097956, 0, 0.190600529, 0)
+PC_SilentAim.Size = UDim2.new(0, 200, 0, 38)
+PC_SilentAim.Font = Enum.Font.Michroma
+PC_SilentAim.Text = "TOGGLE [RMB]"
+PC_SilentAim.TextColor3 = Color3.fromRGB(255, 255, 255)
+PC_SilentAim.TextSize = 20.000
+PC_SilentAim.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+PC_SilentAim.TextStrokeTransparency = 0.000
+
+TextLabel_10.Parent = PC_SilentAim
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-1.78630328, 0, -0.118524119, 0)
+TextLabel_10.Size = UDim2.new(0, 357, 0, 50)
+TextLabel_10.Font = Enum.Font.Michroma
+TextLabel_10.Text = " SILENT AIM"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_10.TextStrokeTransparency = 0.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+PC_DotLock.Name = "PC_DotLock"
+PC_DotLock.Parent = PCLockFrame
+PC_DotLock.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+PC_DotLock.Position = UDim2.new(0.587677777, 0, 0.357702374, 0)
+PC_DotLock.Size = UDim2.new(0, 200, 0, 38)
+PC_DotLock.Font = Enum.Font.Michroma
+PC_DotLock.Text = "TOGGLE [Q]"
+PC_DotLock.TextColor3 = Color3.fromRGB(255, 255, 255)
+PC_DotLock.TextSize = 20.000
+PC_DotLock.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+PC_DotLock.TextStrokeTransparency = 0.000
+
+TextLabel_11.Parent = PC_DotLock
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(-1.78630328, 0, -0.118524119, 0)
+TextLabel_11.Size = UDim2.new(0, 357, 0, 50)
+TextLabel_11.Font = Enum.Font.Michroma
+TextLabel_11.Text = "DOT LOCK"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 20.000
+TextLabel_11.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_11.TextStrokeTransparency = 0.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+FunStuffFrame.Name = "FunStuffFrame"
+FunStuffFrame.Parent = MainFrame
+FunStuffFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+FunStuffFrame.LayoutOrder = 2
+FunStuffFrame.Position = UDim2.new(0.261877149, 0, 0.105747104, 0)
+FunStuffFrame.Size = UDim2.new(0, 633, 0, 383)
+
+FlightS.Name = "FlightS"
+FlightS.Parent = FunStuffFrame
+FlightS.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+FlightS.Position = UDim2.new(0.0284360182, 0, 0.0496083573, 0)
+FlightS.Size = UDim2.new(0, 596, 0, 50)
+FlightS.Font = Enum.Font.Michroma
+FlightS.Text = "FLY [X]"
+FlightS.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlightS.TextSize = 20.000
+FlightS.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+FlightS.TextStrokeTransparency = 0.000
+
+SpeeD.Name = "SpeeD"
+SpeeD.Parent = FunStuffFrame
+SpeeD.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+SpeeD.Position = UDim2.new(0.0300157964, 0, 0.248041779, 0)
+SpeeD.Size = UDim2.new(0, 596, 0, 50)
+SpeeD.Font = Enum.Font.Michroma
+SpeeD.Text = "SPEED FORCE [T]"
+SpeeD.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeeD.TextSize = 20.000
+SpeeD.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+SpeeD.TextStrokeTransparency = 0.000
+
+ResE.Name = "ResE"
+ResE.Parent = FunStuffFrame
+ResE.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+ResE.Position = UDim2.new(0.0284360182, 0, 0.456919074, 0)
+ResE.Size = UDim2.new(0, 596, 0, 50)
+ResE.Font = Enum.Font.Michroma
+ResE.Text = "FORCE RESET [P]"
+ResE.TextColor3 = Color3.fromRGB(255, 255, 255)
+ResE.TextSize = 20.000
+ResE.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+ResE.TextStrokeTransparency = 0.000
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = ScarletCC
+LoginFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+LoginFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+LoginFrame.Position = UDim2.new(0.499637425, 0, 0.131067961, 0)
+LoginFrame.Size = UDim2.new(0, 348, 0, 158)
+
+TextBox.Parent = LoginFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextBox.Position = UDim2.new(0.149425298, 0, 0.360759497, 0)
+TextBox.Size = UDim2.new(0, 243, 0, 31)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Enter Key Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 20.000
+TextBox.TextWrapped = true
+
+TextButton_4.Parent = LoginFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(104, 0, 0)
+TextButton_4.Position = UDim2.new(0.327586204, 0, 0.651898742, 0)
+TextButton_4.Size = UDim2.new(0, 120, 0, 34)
+TextButton_4.Font = Enum.Font.Michroma
+TextButton_4.Text = "Attempt Login"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_18.Rotation = 90
+UIGradient_18.Parent = TextButton_4
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_19.Rotation = 90
+UIGradient_19.Parent = LoginFrame
+
+TextLabel_12.Parent = LoginFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 348, 0, 35)
+TextLabel_12.Font = Enum.Font.Michroma
+TextLabel_12.Text = "Login to Scarlet.CC"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 20.000
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(83, 83, 83))}
+UIGradient_20.Rotation = 90
+UIGradient_20.Parent = TextLabel_12
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- LoginFrame.LoginModule
+	local script = Instance.new('ModuleScript', LoginFrame)
+	script.Name = "LoginModule"
+	local function module_script()
+		
+		
+		local LoginModule = {}
+		
+		function LoginModule.AttemptLogin(key,correctkey)
+			local keylowered = string.lower(key)
+			if keylowered == correctkey then
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0, 0.423529, 0.0470588)
+				wait(1)
+				script.Parent.Visible = false
+			else
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0.407843, 0, 0)
+				wait(1)
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+				wait(3)
+				script.Parent.Parent.LoginFrame.Visible = false
+				wait(1)
+				script.Parent.Parent.MainFrame.Visible = true
+			end
+		end
+		
+		
+		return LoginModule
+		
+		
+		
+		
+		
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function DHLISF_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+	
+		script.Parent.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.Parent.MobileLockFrame.Visible = false
+		script.Parent.Parent.Parent.PCLockFrame.Visible = false
+		script.Parent.Parent.Parent.FunStuffFrame.Visible = false
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(DHLISF_fake_script)()
+local function PRLIECG_fake_script() -- MobileLockButton.LocalScript 
+	local script = Instance.new('LocalScript', MobileLockButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+	
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.MobileLockFrame.Visible = true
+		script.Parent.Parent.Parent.PCLockFrame.Visible = false
+		script.Parent.Parent.Parent.FunStuffFrame.Visible = false
+		print("Recall Function_01")
+	end)
+	
+	
+end
+coroutine.wrap(PRLIECG_fake_script)()
+local function CENC_fake_script() -- PCLockButton.LocalScript 
+	local script = Instance.new('LocalScript', PCLockButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+	
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.MobileLockFrame.Visible = false
+		script.Parent.Parent.Parent.PCLockFrame.Visible = true
+		script.Parent.Parent.Parent.FunStuffFrame.Visible = false
+		print("Recall Function_01")
+	end)
+end
+coroutine.wrap(CENC_fake_script)()
+local function VVFFI_fake_script() -- FunStuffButton.LocalScript 
+	local script = Instance.new('LocalScript', FunStuffButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+	
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.MobileLockFrame.Visible = false
+		script.Parent.Parent.Parent.PCLockFrame.Visible = false
+		script.Parent.Parent.Parent.FunStuffFrame.Visible = true
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(VVFFI_fake_script)()
+local function TXHA_fake_script() -- HomeFrame.LocalScript 
+	local script = Instance.new('LocalScript', HomeFrame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local LocalPlayer = game.Players.LocalPlayer
+	
+	local Age = script.Parent.GUI.AccountAge
+	local ID = script.Parent.GUI.PlayerID
+	local Name = script.Parent.GUI.Username
+	
+	
+	Age.Text = "AccountAge: "..LocalPlayer.AccountAge
+	ID.Text = "AccountID: " ..LocalPlayer.UserId
+	Name.Text = "Username: " ..LocalPlayer.Name
+end
+coroutine.wrap(TXHA_fake_script)()
+local function ESMYS_fake_script() -- PC_CamLock.Script 
+	local script = Instance.new('Script', PC_CamLock)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local FirstButton = FirstPage.AddButton("Cam Aimlock [Q]", function()
+		getgenv().AimPart = "HumanoidRootPart"
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://413861777"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		getgenv().AimlockKey = "q"
+		getgenv().AimRadius = 45
+		getgenv().ThirdPerson = true
+		getgenv().FirstPerson = true
+		getgenv().TeamCheck = false
+		getgenv().PredictMovement = true
+		getgenv().PredictionVelocity = 9
+		local L_27_, L_28_, L_29_, L_30_ =
+			game:GetService "Players",
+		game:GetService "UserInputService",
+		game:GetService "RunService",
+		game:GetService "StarterGui"
+		local L_31_, L_32_, L_33_, L_34_, L_35_, L_36_, L_37_ =
+			L_27_.LocalPlayer,
+		L_27_.LocalPlayer:GetMouse(),
+		workspace.CurrentCamera,
+		CFrame.new,
+		Ray.new,
+		Vector3.new,
+		Vector2.new
+		local L_38_, L_39_, L_40_ = true, false, false
+		local L_41_
+		getgenv().CiazwareUniversalAimbotLoaded = true
+		getgenv().WorldToViewportPoint = function(L_42_arg0)
+			return L_33_:WorldToViewportPoint(L_42_arg0)
+		end
+		getgenv().WorldToScreenPoint = function(L_43_arg0)
+			return L_33_.WorldToScreenPoint(L_33_, L_43_arg0)
+		end
+		getgenv().GetObscuringObjects = function(L_44_arg0)
+			if L_44_arg0 and L_44_arg0:FindFirstChild(getgenv().AimPart) and L_31_ and L_31_.Character:FindFirstChild("Head") then
+				local L_45_ = workspace:FindPartOnRay(L_35_(L_44_arg0[getgenv().AimPart].Position, L_31_.Character.Head.Position))
+				if L_45_ then
+					return L_45_:IsDescendantOf(L_44_arg0)
+				end
+			end
+		end
+		getgenv().GetNearestTarget = function()
+			local L_46_ = {}
+			local L_47_ = {}
+			local L_48_ = {}
+			for L_50_forvar0, L_51_forvar1 in pairs(L_27_:GetPlayers()) do
+				if L_51_forvar1 ~= L_31_ then
+					table.insert(L_46_, L_51_forvar1)
+				end
+			end
+			for L_52_forvar0, L_53_forvar1 in pairs(L_46_) do
+				if L_53_forvar1.Character ~= nil then
+					local L_54_ = L_53_forvar1.Character:FindFirstChild("Head")
+					if getgenv().TeamCheck == true and L_53_forvar1.Team ~= L_31_.Team then
+						local L_55_ =
+							(L_53_forvar1.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+						local L_56_ =
+							Ray.new(
+								game.Workspace.CurrentCamera.CFrame.p,
+								(L_32_.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * L_55_
+							)
+						local L_57_, L_58_ = game.Workspace:FindPartOnRay(L_56_, game.Workspace)
+						local L_59_ = math.floor((L_58_ - L_54_.Position).magnitude)
+						L_47_[L_53_forvar1.Name .. L_52_forvar0] = {}
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].dist = L_55_
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].plr = L_53_forvar1
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].diff = L_59_
+						table.insert(L_48_, L_59_)
+					elseif getgenv().TeamCheck == false and L_53_forvar1.Team == L_31_.Team then
+						local L_60_ =
+							(L_53_forvar1.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+						local L_61_ =
+							Ray.new(
+								game.Workspace.CurrentCamera.CFrame.p,
+								(L_32_.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * L_60_
+							)
+						local L_62_, L_63_ = game.Workspace:FindPartOnRay(L_61_, game.Workspace)
+						local L_64_ = math.floor((L_63_ - L_54_.Position).magnitude)
+						L_47_[L_53_forvar1.Name .. L_52_forvar0] = {}
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].dist = L_60_
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].plr = L_53_forvar1
+						L_47_[L_53_forvar1.Name .. L_52_forvar0].diff = L_64_
+						table.insert(L_48_, L_64_)
+					end
+				end
+			end
+			if unpack(L_48_) == nil then
+				return nil
+			end
+			local L_49_ = math.floor(math.min(unpack(L_48_)))
+			if L_49_ > getgenv().AimRadius then
+				return nil
+			end
+			for L_65_forvar0, L_66_forvar1 in pairs(L_47_) do
+				if L_66_forvar1.diff == L_49_ then
+					return L_66_forvar1.plr
+				end
+			end
+			return nil
+		end
+		L_32_.KeyDown:Connect(
+			function(L_67_arg0)
+				if L_67_arg0 == AimlockKey and L_41_ == nil then
+					pcall(
+						function()
+							if L_39_ ~= true then
+								L_39_ = true
+							end
+							local L_68_
+							L_68_ = GetNearestTarget()
+							if L_68_ ~= nil then
+								L_41_ = L_68_
+							end
+						end
+					)
+				elseif L_67_arg0 == AimlockKey and L_41_ ~= nil then
+					if L_41_ ~= nil then
+						L_41_ = nil
+					end
+					if L_39_ ~= false then
+						L_39_ = false
+					end
+				end
+			end
+		)
+		L_29_.RenderStepped:Connect(
+			function()
+				if getgenv().ThirdPerson == true and getgenv().FirstPerson == true then
+					if
+						(L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude > 1 or
+						(L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude <= 1
+					then
+						L_40_ = true
+					else
+						L_40_ = false
+					end
+				elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then
+					if (L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude > 1 then
+						L_40_ = true
+					else
+						L_40_ = false
+					end
+				elseif getgenv().ThirdPerson == false and getgenv().FirstPerson == true then
+					if (L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude <= 1 then
+						L_40_ = true
+					else
+						L_40_ = false
+					end
+				end
+				if L_38_ == true and L_39_ == true then
+					if L_41_ and L_41_.Character and L_41_.Character:FindFirstChild(getgenv().AimPart) then
+						if getgenv().FirstPerson == true then
+							if L_40_ == true then
+								if getgenv().PredictMovement == true then
+									L_33_.CFrame =
+										L_34_(
+											L_33_.CFrame.p,
+											L_41_.Character[getgenv().AimPart].Position +
+											L_41_.Character[getgenv().AimPart].Velocity / PredictionVelocity
+										)
+								elseif getgenv().PredictMovement == false then
+									L_33_.CFrame = L_34_(L_33_.CFrame.p, L_41_.Character[getgenv().AimPart].Position)
+								end
+							end
+						elseif getgenv().ThirdPerson == true then
+							if L_40_ == true then
+								if getgenv().PredictMovement == true then
+									L_33_.CFrame =
+										L_34_(
+											L_33_.CFrame.p,
+											L_41_.Character[getgenv().AimPart].Position +
+											L_41_.Character[getgenv().AimPart].Velocity / PredictionVelocity
+										)
+								elseif getgenv().PredictMovement == false then
+									L_33_.CFrame = L_34_(L_33_.CFrame.p, L_41_.Character[getgenv().AimPart].Position)
+								end
+							end
+						end
+					end
+				end
+			end
+		)
+	end)
+end
+coroutine.wrap(ESMYS_fake_script)()
+local function DDDBZI_fake_script() -- PC_DotLock.LocalScript 
+	local script = Instance.new('LocalScript', PC_DotLock)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local FirstButton = FirstPage.AddButton("Dot Lock OP [Q]", function()
+		local Settings = {
+			rewrittenmain = {
+				Enabled = true,
+				Key = "q",
+				DOT = true,
+				AIRSHOT = true,
+				NOTIF = false,
+				AUTOPRED = false,
+				FOV = math.huge,
+				RESOVLER = false
+			}
+		}
+	
+		local SelectedPart = "Head"
+		local Prediction = true
+		local PredictionValue = 0.12467245219812
+	
+	
+		local AnchorCount = 0
+		local MaxAnchor = 50
+	
+		local CC = game:GetService"Workspace".CurrentCamera
+		local Plr;
+		local enabled = false
+		local accomidationfactor = 0.1234772452176
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		local placemarker = Instance.new("Part", game.Workspace)
+	
+		function makemarker(Parent, Adornee, Color, Size, Size2)
+			local e = Instance.new("BillboardGui", Parent)
+			e.Name = "PP"
+			e.Adornee = Adornee
+			e.Size = UDim2.new(Size, Size2, Size, Size2)
+			e.AlwaysOnTop = Settings.rewrittenmain.DOT
+			local a = Instance.new("Frame", e)
+			if Settings.rewrittenmain.DOT == true then
+				a.Size = UDim2.new(1, 0, 1, 0)
+			else
+				a.Size = UDim2.new(0, 0, 0, 0)
+			end
+			if Settings.rewrittenmain.DOT == true then
+				a.Transparency = 0
+				a.BackgroundTransparency = 0
+			else
+				a.Transparency = 1
+				a.BackgroundTransparency = 1
+			end
+			a.BackgroundColor3 = Color
+			local g = Instance.new("UICorner", a)
+			if Settings.rewrittenmain.DOT == false then
+				g.CornerRadius = UDim.new(0, 0)
+			else
+				g.CornerRadius = UDim.new(1, 1) 
+			end
+			return(e)
+		end
+	
+	
+		local data = game.Players:GetPlayers()
+		function noob(player)
+			local character
+			repeat wait() until player.Character
+			local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(107, 184, 255), 0.3, 3)
+			handler.Name = player.Name
+			player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
+	
+	
+			spawn(function()
+				while wait() do
+					if player.Character then
+					end
+				end
+			end)
+		end
+	
+		for i = 1, #data do
+			if data[i] ~= game.Players.LocalPlayer then
+				noob(data[i])
+			end
+		end
+	
+		game.Players.PlayerAdded:connect(function(Player)
+			noob(Player)
+		end)
+	
+		spawn(function()
+			placemarker.Anchored = true
+			placemarker.CanCollide = false
+			if Settings.rewrittenmain.DOT == true then
+				placemarker.Size = Vector3.new(8, 8, 8)
+			else
+				placemarker.Size = Vector3.new(0, 0, 0)
+			end
+			placemarker.Transparency = 0.75
+			if Settings.rewrittenmain.DOT then
+				makemarker(placemarker, placemarker, Color3.fromRGB(232, 186, 200), 0.40, 0)
+			end
+		end)
+	
+		game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
+			if k == Settings.rewrittenmain.Key and Settings.rewrittenmain.Enabled then
+				if enabled == true then
+					enabled = false
+					if Settings.rewrittenmain.NOTIF == true then
+						Plr = getClosestPlayerToCursor()
+						game.StarterGui:SetCore("SendNotification", {
+							Title = "6akan Locking Alert",
+							Text = "Unlocked",
+							Icon = "http://www.roblox.com/asset/?id=8850953349",
+							Duration = 1,
+						})
+					end
+				else
+					Plr = getClosestPlayerToCursor()
+					enabled = true
+					if Settings.rewrittenmain.NOTIF == true then
+	
+						game.StarterGui:SetCore("SendNotification", {
+							Title = "6akan Locking Alert",
+							Text = "Locked on :"..tostring(Plr.Name);
+							Icon = "http://www.roblox.com/asset/?id=8850953349",
+							Duration = 1,
+						})
+	
+					end
+				end
+			end
+		end)
+	
+	
+	
+		function getClosestPlayerToCursor()
+			local closestPlayer
+			local shortestDistance = Settings.rewrittenmain.FOV
+	
+			for i, v in pairs(game.Players:GetPlayers()) do
+				if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") then
+					local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+					local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+					if magnitude < shortestDistance then
+						closestPlayer = v
+						shortestDistance = magnitude
+					end
+				end
+			end
+			return closestPlayer
+		end
+	
+		local pingvalue = nil;
+		local split = nil;
+		local ping = nil;
+	
+		game:GetService"RunService".Stepped:connect(function()
+			if enabled and Plr.Character ~= nil and Plr.Character:FindFirstChild("HumanoidRootPart") then
+				placemarker.CFrame = CFrame.new(Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor))
+			else
+				placemarker.CFrame = CFrame.new(0, 9999, 0)
+			end
+			if Settings.rewrittenmain.AUTOPRED == true then
+				pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+				split = string.split(pingvalue,'(')
+				ping = tonumber(split[1])
+				if ping < 130 then
+					PredictionValue = 0.151
+				elseif ping < 125 then
+					PredictionValue = 0.149
+				elseif ping < 110 then
+					PredictionValue = 0.146
+				elseif ping < 105 then
+					PredictionValue = 0.138
+				elseif ping < 90 then
+					PredictionValue = 0.136
+				elseif ping < 80 then
+					PredictionValue = 0.134
+				elseif ping < 70 then
+					PredictionValue = 0.131
+				elseif ping < 60 then
+					PredictionValue = 0.1229
+				elseif ping < 50 then
+					PredictionValue = 0.1225
+				elseif ping < 40 then
+					PredictionValue = 0.1256
+				end
+			end
+		end)
+	
+		local mt = getrawmetatable(game)
+		local old = mt.__namecall
+		setreadonly(mt, false)
+		mt.__namecall = newcclosure(function(...)
+			local args = {...}
+			if enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" and Settings.rewrittenmain.Enabled and Plr.Character ~= nil then
+	
+				-- args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
+	            --[[
+	            if Settings.rewrittenmain.AIRSHOT == true then
+	                if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+	                    
+	                    --// Airshot
+	                    args[3] = Plr.Character.LeftFoot.Position+(Plr.Character.LeftFoot.Velocity*PredictionValue)
+	
+	                else
+	                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+	
+	                end
+	            else
+	                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+	            end
+	            ]]
+				if Prediction == true then
+	
+					args[3] = Plr.Character[SelectedPart].Position+(Plr.Character[SelectedPart].Velocity*PredictionValue)
+	
+				else
+	
+					args[3] = Plr.Character[SelectedPart].Position
+	
+				end
+	
+				return old(unpack(args))
+			end
+			return old(...)
+		end)
+	
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if Settings.rewrittenmain.RESOVLER == true and Plr.Character ~= nil and enabled and Settings.rewrittenmain.Enabled then
+				if Settings.rewrittenmain.AIRSHOT == true and enabled and Plr.Character ~= nil then
+	
+					if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+	
+						--// Airshot
+	
+						--// Anchor Check
+	
+						if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+							AnchorCount = AnchorCount + 1
+							if AnchorCount >= MaxAnchor then
+								Prediction = false
+								wait(2)
+								AnchorCount = 0;
+							end
+						else
+							Prediction = true
+							AnchorCount = 0;
+						end
+	
+						SelectedPart = "LeftFoot"
+	
+					else
+						--// Anchor Check
+	
+						if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+							AnchorCount = AnchorCount + 1
+							if AnchorCount >= MaxAnchor then
+								Prediction = false
+								wait(2)
+								AnchorCount = 0;
+							end
+						else
+							Prediction = true
+							AnchorCount = 0;
+						end
+	
+						SelectedPart = "HumanoidRootPart"
+	
+					end
+				else
+	
+					--// Anchor Check
+	
+					if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+						AnchorCount = AnchorCount + 1
+						if AnchorCount >= MaxAnchor then
+							Prediction = false
+							wait(2)
+							AnchorCount = 0;
+						end
+					else
+						Prediction = true
+						AnchorCount = 0;
+					end
+	
+					SelectedPart = "HumanoidRootPart"
+				end
+	
+			else
+				SelectedPart = "HumanoidRootPart"
+			end
+		end)
+	
+	end)
+end
+coroutine.wrap(DDDBZI_fake_script)()
+local function FTJPXSX_fake_script() -- FunStuffFrame.LocalScript 
+	local script = Instance.new('LocalScript', FunStuffFrame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local LocalPlayer = game.Players.LocalPlayer
+	
+	local Age = script.Parent.GUI.AccountAge
+	local ID = script.Parent.GUI.PlayerID
+	local Name = script.Parent.GUI.Username
+	
+	
+	Age.Text = "AccountAge: "..LocalPlayer.AccountAge
+	ID.Text = "AccountID: " ..LocalPlayer.UserId
+	Name.Text = "Username: " ..LocalPlayer.Name
+end
+coroutine.wrap(FTJPXSX_fake_script)()
+local function WYAQ_fake_script() -- FlightS.Script 
+	local script = Instance.new('Script', FlightS)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Parent.FlightS.MouseButton1Click:Connect(function(plr)
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://413861777"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
+		end)
+end
+coroutine.wrap(WYAQ_fake_script)()
+local function INWH_fake_script() -- SpeeD.Script 
+	local script = Instance.new('Script', SpeeD)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Parent.SpeeD.MouseButton1Click:Connect(function(plr)
+	
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://413861777"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/coolmanstrongsuperman/lol/main/SpeedWare%20T%20to%20speed"))()
+	end)
+	end)
+end
+coroutine.wrap(INWH_fake_script)()
+local function KFLVY_fake_script() -- ResE.Script 
+	local script = Instance.new('Script', ResE)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Parent.ResE.MouseButton1Click:Connect(function(plr)
+	
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://413861777"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		local Tool = script.Parent
+		local mouse = game.Players.LocalPlayer:GetMouse()
+	
+		function onKeyDown(key)
+			if (key~=nil) then
+				key = key:lower()
+				if (key=="p")  then
+					game.Players.LocalPlayer.Character.Humanoid.Health = 0
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(KFLVY_fake_script)()
+local function JJNO_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local LoginModule = require(script.Parent.Parent.LoginModule)
+	local debounce = false
+	local correctkey = "P3EGXH-FGCH2Xx_763895787544641566"
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if debounce == false then
+			debounce = true
+			local key = script.Parent.Parent.TextBox.Text
+			LoginModule.AttemptLogin(key,correctkey)
+			wait(2)
+			debounce = false
+		end
+	end)
+end
+coroutine.wrap(JJNO_fake_script)()
+local function MWXQT_fake_script() -- ScarletCC.Notif 
+	local script = Instance.new('LocalScript', ScarletCC)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Scarlet.CC Loaded";
+		Text = "Made By FallensRevenge#0318";
+		Icon = "";
+		Duration = 98083905839058095809389034;
+		Button1 = "Close";
+		Button2 = "";
+		Button3 = "";
+		Callback = NotificationBindable;
+	}
+	)
+	
+end
+coroutine.wrap(MWXQT_fake_script)()
+local function RCEZJVB_fake_script() -- ScarletCC.LocalScript 
+	local script = Instance.new('LocalScript', ScarletCC)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Players = game:GetService("Players")
+	local Player = Players.LocalPlayer
+	
+	local Mouse = Player:GetMouse()
+	local Gui = script.Parent.frame
+	local Open = false
+	
+	function PressV(key) 
+		if (key == "v") then 
+			if (Open == false) then
+				Gui.Visible = true
+				Open = true
+			elseif (Open == true) then
+				Gui.Visible = false
+				Open = false
+			end
+		end
+	end
+	
+	Mouse.KeyDown:Connect(PressV) 
+	print("Menu Toggle Key for Scarlet is V")
+end
